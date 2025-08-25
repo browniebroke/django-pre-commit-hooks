@@ -1,10 +1,12 @@
 # Changelog
 
+## v1.0.0-rc.1 (2025-08-25)
+
 ## v0.1.0 (2025-08-25)
 
 ### Features
 
-- Add compile-message pre-commit hook (#1) ([`8581cf5`](https://github.com/browniebroke/django-pre-commit-hooks/commit/8581cf5459d221120bc97c30d5c7e558b679e989))
+- Add compile-message pre-commit hook ([`8581cf5`](https://github.com/browniebroke/django-pre-commit-hooks/commit/8581cf5459d221120bc97c30d5c7e558b679e989))
 
 ## v0.0.0 (2025-08-25)
 
