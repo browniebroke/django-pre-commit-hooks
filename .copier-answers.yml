@@ -1,0 +1,23 @@
+# Changes here will be overwritten by Copier
+_commit: db4b076
+_src_path: gh:browniebroke/pypackage-template
+add_me_as_contributor: false
+cli_name: django-pre-commit-hooks
+copyright_year: '2025'
+documentation: false
+email: oss@browniebroke.com
+full_name: Bruno Alla
+github_username: browniebroke
+has_cli: true
+initial_commit: false
+is_django_package: false
+open_source_license: MIT
+open_with_editor: true
+package_name: django_pre_commit_hooks
+project_name: Django pre-commit hooks
+project_short_description: A collection of pre-commit hooks for Django projects
+project_slug: django-pre-commit-hooks
+run_uv_sync: false
+setup_github: false
+setup_pre_commit: false
+
