@@ -26,19 +26,19 @@ classifiers = [
 ]
 
 dependencies = [
-  "rich>=10",
-  "typer>=0.15,<1",
+  "django",
 ]
 urls."Bug Tracker" = "https://github.com/browniebroke/django-pre-commit-hooks/issues"
 urls.Changelog = "https://github.com/browniebroke/django-pre-commit-hooks/blob/main/CHANGELOG.md"
 urls.repository = "https://github.com/browniebroke/django-pre-commit-hooks"
-scripts.django-pre-commit-hooks = "django_pre_commit_hooks.cli:app"
+scripts.compile-messages = "django_pre_commit_hooks.compile_messages:main"
 
 [dependency-groups]
 dev = [
   "coverage",
   "pytest>=8,<9",
   "pytest-cov>=6,<7",
+  "pytest-mock>=3.14.1",
 ]
 
 [tool.ruff]
