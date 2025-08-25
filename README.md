@@ -24,7 +24,7 @@
     <img src="https://img.shields.io/pypi/v/django-pre-commit-hooks.svg?logo=python&logoColor=fff&style=flat-square" alt="PyPI Version">
   </a>
   <img src="https://img.shields.io/pypi/pyversions/django-pre-commit-hooks.svg?style=flat-square&logo=python&amp;logoColor=fff" alt="Supported Python versions">
-  <img src="https://img.shields.io/pypi/l/django-pre-commit-hooks.svg?style=flat-square" alt="License">
+  <img src="https://img.shields.io/pypi/l/django-pre-commit-hooks.svg?style=flat-square&cacheSeconds=4000" alt="License">
 </p>
 
 ---
