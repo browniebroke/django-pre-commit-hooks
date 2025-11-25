@@ -36,7 +36,7 @@ scripts.compile-messages = "django_pre_commit_hooks.compile_messages:main"
 [dependency-groups]
 dev = [
   "coverage",
-  "pytest>=8,<9",
+  "pytest>=9,<10",
   "pytest-cov>=6,<7",
   "pytest-mock>=3.14.1",
 ]
