@@ -24,7 +24,7 @@ Look through the GitHub issues for features. Anything tagged with "enhancement" 
 
 ### Write Documentation
 
-Django pre-commit hooks could always use more documentation, whether as part of the official Django pre-commit hooks docs, in docstrings, or even on the web in blog posts, articles, and such.
+Django prek hooks could always use more documentation, whether as part of the official Django prek hooks docs, in docstrings, or even on the web in blog posts, articles, and such.
 
 ### Submit Feedback
 
@@ -43,7 +43,7 @@ Ready to contribute? Here's how to set yourself up for local development.
 2. Clone your fork locally:
 
    ```shell
-   $ git clone git@github.com:your_name_here/django-pre-commit-hooks.git
+   $ git clone git@github.com:your_name_here/django-prek-hooks.git
    ```
 
 3. Install the project dependencies with [uv](https://docs.astral.sh/uv/):
@@ -66,16 +66,16 @@ Ready to contribute? Here's how to set yourself up for local development.
    $ uv run pytest
    ```
 
-6. Linting is done through [pre-commit](https://pre-commit.com). Provided you have the tool installed globally, you can run them all as one-off:
+6. Linting is done through [prek](https://prek.j178.dev/). Provided you have the tool installed globally, you can run them all as one-off:
 
    ```shell
-   $ pre-commit run -a
+   $ prek run -a
    ```
 
    Or better, install the hooks once and have them run automatically each time you commit:
 
    ```shell
-   $ pre-commit install
+   $ prek install -f
    ```
 
 7. Commit your changes and push your branch to GitHub:
@@ -86,7 +86,7 @@ Ready to contribute? Here's how to set yourself up for local development.
    $ git push origin name-of-your-bugfix-or-feature
    ```
 
-   Note: the commit message should follow [the conventional commits](https://www.conventionalcommits.org). We run [`commitlint` on CI](https://github.com/marketplace/actions/commit-linter) to validate it, and if you've installed pre-commit hooks at the previous step, the message will be checked at commit time.
+   Note: the commit message should follow [the conventional commits](https://www.conventionalcommits.org). We run [`commitlint` on CI](https://github.com/marketplace/actions/commit-linter) to validate it, and if you've installed prek hooks at the previous step, the message will be checked at commit time.
 
 8. Submit a pull request through the GitHub website or using the GitHub CLI (if you have it installed):
 
@@ -114,4 +114,4 @@ $ pytest tests
 
 The deployment should be automated and can be triggered from the Semantic Release workflow in GitHub. The next version will be based on [the commit logs](https://python-semantic-release.readthedocs.io/en/latest/commit-log-parsing.html#commit-log-parsing). This is done by [python-semantic-release](https://python-semantic-release.readthedocs.io/en/latest/index.html) via a GitHub action.
 
-[gh-issues]: https://github.com/browniebroke/django-pre-commit-hooks/issues
+[gh-issues]: https://github.com/browniebroke/django-prek-hooks/issues
