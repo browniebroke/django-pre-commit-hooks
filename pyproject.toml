@@ -39,6 +39,7 @@ dev = [
   "pytest>=8,<9",
   "pytest-cov>=7,<8",
   "pytest-mock>=3.14.1",
+  "ty==0.0.31",
 ]
 
 [tool.ruff]
@@ -106,23 +107,8 @@ exclude_lines = [
   'if __name__ == "__main__":',
 ]
 
-[tool.mypy]
-check_untyped_defs = true
-disallow_any_generics = true
-disallow_incomplete_defs = true
-disallow_untyped_defs = true
-mypy_path = "src/"
-no_implicit_optional = true
-show_error_codes = true
-warn_unreachable = true
-warn_unused_ignores = true
-exclude = [
-  'setup.py',
-]
-
-[[tool.mypy.overrides]]
-module = "tests.*"
-allow_untyped_defs = true
+[tool.ty]
+terminal.error-on-warning = true
 
 [tool.semantic_release]
 version_toml = [ "pyproject.toml:project.version" ]
