@@ -36,7 +36,7 @@ scripts.compile-messages = "django_pre_commit_hooks.compile_messages:main"
 [dependency-groups]
 dev = [
   "coverage",
-  "pytest>=8,<9",
+  "pytest>=9,<10",
   "pytest-cov>=7,<8",
   "pytest-mock>=3.14.1",
   "ty==0.0.55",
@@ -80,14 +80,14 @@ lint.isort.known-first-party = [ "django_pre_commit_hooks", "tests" ]
 max_supported_python = "3.14"
 
 [tool.pytest.ini_options]
-addopts = """\
-    -v
-    -Wdefault
-    --cov=django_pre_commit_hooks
-    --cov-report=term
-    --cov-report=xml
-    """
-pythonpath = [ "src" ]
+addopts = [
+    "-v",
+    "-Wdefault",
+    "--cov=django_pre_commit_hooks",
+    "--cov-report=term",
+    "--cov-report=xml",
+]
+pythonpath = ["src"]
 
 [tool.coverage.run]
 branch = true
