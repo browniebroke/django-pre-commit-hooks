@@ -80,14 +80,14 @@ lint.isort.known-first-party = [ "django_pre_commit_hooks", "tests" ]
 max_supported_python = "3.14"
 
 [tool.pytest.ini_options]
-addopts = """\
-    -v
-    -Wdefault
-    --cov=django_pre_commit_hooks
-    --cov-report=term
-    --cov-report=xml
-    """
-pythonpath = [ "src" ]
+addopts = [
+    "-v",
+    "-Wdefault",
+    "--cov=django_pre_commit_hooks",
+    "--cov-report=term",
+    "--cov-report=xml",
+]
+pythonpath = ["src"]
 
 [tool.coverage.run]
 branch = true
