@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2.0 (2026-08-07)
+
+### Features
+
+- Add support for python 3.15 ([`9d56a9b`](https://github.com/browniebroke/django-pre-commit-hooks/commit/9d56a9b0e167094f0229b0b9fa5c25b62b05ffbb))
+
 ## v1.1.0 (2025-09-18)
 
 ### Features
