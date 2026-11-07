@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.0.0 (2026-11-07)
+
+### Features
+
+- Drop support for python 3.10 ([`075c188`](https://github.com/browniebroke/django-pre-commit-hooks/commit/075c18848473c2a7f5dd7f1648d3259333537262))
+
 ## v1.2.0 (2026-08-07)
 
 ### Features
